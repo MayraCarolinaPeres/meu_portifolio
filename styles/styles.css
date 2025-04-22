@@ -17,18 +17,21 @@ body{
     color: var(--cor-fonte);
 }
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 0% 0% 0% 15%;
 }
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 40px;
 }
 .cabecalho__menu__link{
     font-size: 1.8rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-titulo);
+    align-items: center;
 }
+    
+    
 .apresentacao{
     padding: 2% 2% 5% 15%;
     gap: 82px;
@@ -121,9 +124,10 @@ background-color:var(--cor-hover);
         .cabecalho{
             padding: 5%;
         }
-        .cabecalho__menu{
+        .cabecalho__menu__link{
             justify-content: center;
         }
+
       
         .apresentacao{
             flex-direction: column-reverse;
