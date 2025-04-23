@@ -120,27 +120,46 @@ background-color:var(--cor-hover);
     background-color:var(--cor-fundo);
 }
 
-    @media(max-width:1200px) {
+    @media(max-width:800px) {
         .cabecalho{
             padding: 5%;
         }
         .cabecalho__menu__link{
             justify-content: center;
+            font-size: 1rem;
         }
-
       
         .apresentacao{
-            flex-direction: column-reverse;
+            flex-direction: column;
             padding: 5%;
         }
         .apresentacao__conteudo__texto{
             width: auto;
-        
+            font-size: 0.9rem;
+            padding: 3%;    
+    
         }
         .apresentacao__conteudo__titulo{
             width: auto;
+            font-size: 1.1rem;
+        }
+        .apresentacao__conteudo__certificados{
+            width: 10%;
+            font-size: 0.8rem;
         }
         .apresentacao__experiencia__titulo{
             width: auto;
+            font-size: 1.1rem;
+        }
+        .apresentacao__redes{
+            width: auto;
+            font-size: 1.1rem;
+        }
+        .apresentacao__redes__links{
+            font-size: 1.1rem;
+        }
+        .rodape{
+            font-size: 0.8rem;
+            font-weight: 100;
         }
     }
