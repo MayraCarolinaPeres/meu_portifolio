@@ -34,7 +34,7 @@ body{
     
 
 .apresentacao{
-    padding: 40px;
+    padding: 30px;
     gap: 80px;
     display: flex;
     line-height: 1.2;
@@ -48,7 +48,7 @@ body{
     color: var(--cor-titulo);
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    padding: 30px;
    
 
 }
@@ -60,7 +60,7 @@ body{
     text-align:left;
     text-indent: 30px; 
     line-height: 1.2;
-    padding: 2%, 2%, 2%,5%;
+    padding: 30px;
     
 
 }
@@ -68,7 +68,7 @@ body{
     width: 100%;
     font-weight: 200;
     font-size: 1.3rem;
-    padding: 10%, 5%, 5%,5%;
+    padding: 30px;
     line-height: 1.5;
     text-align:left;
     
@@ -98,7 +98,7 @@ background-color:var(--cor-hover);
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 2% 2% 2% 0%;
+    padding: 30px;
     line-height: 1.2;
 
 }
@@ -115,7 +115,7 @@ background-color:var(--cor-hover);
     font-size: 2rem;
     font-weight: 600;
 
-    padding: 2%, 5%, 5%,5%;
+    padding: 30px;
     flex-direction: column;
     display: block;
     line-height: 1.2;
