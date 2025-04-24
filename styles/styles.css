@@ -114,8 +114,6 @@ background-color:var(--cor-hover);
     border-radius: 3px;
     font-size: 2rem;
     font-weight: 600;
-
-    padding: 30px;
     flex-direction: column;
     display: block;
     line-height: 1.2;
