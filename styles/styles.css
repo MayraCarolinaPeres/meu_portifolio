@@ -17,48 +17,61 @@ body{
     color: var(--cor-fonte);
 }
 .cabecalho{
-    padding: 0% 0% 0% 15%;
+    padding: 30px;
 }
 .cabecalho__menu{
     display: flex;
-    gap: 40px;
+    align-items: center;
+  gap: 20px;
 }
 .cabecalho__menu__link{
     font-size: 1.8rem;
     font-weight: 600;
-    text-decoration: none;
+
     color: var(--cor-titulo);
     align-items: center;
 }
     
-    
-.apresentacao{
-    padding: 2% 2% 5% 15%;
-    gap: 82px;
-    display: flex;
 
+.apresentacao{
+    padding: 40px;
+    gap: 80px;
+    display: flex;
+    line-height: 1.2;
     align-items: center;
     justify-content: space-between;
 }
 .apresentacao__conteudo__titulo{
     width: 50%;
     font-weight:800;
-  gap: 40px;
     font-size: 2rem;
     color: var(--cor-titulo);
     display: flex;
     flex-direction: column;
-    padding: 2% 2% 2% 0%;
+    padding: 2%;
+   
+
+}
+.apresentacao__conteudo__texto2{
+    width: 50%;
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin: 10px ;
+    text-align:left;
+    text-indent: 30px; 
+    line-height: 1.2;
+    padding: 2%, 2%, 2%,5%;
+    
+
 }
 .apresentacao__conteudo__texto{
-    width: 60%;
-    font-weight:400;
+    width: 100%;
+    font-weight: 200;
     font-size: 1.3rem;
-   display: flex;
-   flex-direction: column;
-   gap: 40px;
-   padding: 2% 2% 2% 0%;
-
+    padding: 10%, 5%, 5%,5%;
+    line-height: 1.5;
+    text-align:left;
+    
 }
 .apresentacao__conteudo__certificados{
    
@@ -69,7 +82,9 @@ width: 80%;
 border-radius: 3px;
 font-size: 1.1rem;
 font-weight: 20;
-padding: 2px ;
+
+
+
    
 }
 .apresentacao__conteudo__certificados:hover {
@@ -84,6 +99,7 @@ background-color:var(--cor-hover);
     flex-direction: column;
     gap: 40px;
     padding: 2% 2% 2% 0%;
+    line-height: 1.2;
 
 }
 
@@ -98,9 +114,11 @@ background-color:var(--cor-hover);
     border-radius: 3px;
     font-size: 2rem;
     font-weight: 600;
-    padding: 2px ;
+
+    padding: 2%, 5%, 5%,5%;
     flex-direction: column;
     display: block;
+    line-height: 1.2;
 }
 .apresentacao__redes__links:hover {
     background-color: var(--cor-hover);
@@ -136,9 +154,15 @@ background-color:var(--cor-hover);
         .apresentacao__conteudo__texto{
             width: auto;
             font-size: 0.9rem;
-            padding: 3%;    
+            padding: 2%;    
     
         }
+        .apresentacao__conteudo__texto2{
+            width: auto;
+            font-size: 0.9rem;
+            padding: 2%;    
+        }
+        
         .apresentacao__conteudo__titulo{
             width: auto;
             font-size: 1.1rem;
