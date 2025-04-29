@@ -1,4 +1,4 @@
-# Portifólio
+# Portfólio
 
  Olá, Bem vindo ao meu projeto de portifólio, onde você poderá saber mais sobre mim e ter acesso ao meu currículo.
 
